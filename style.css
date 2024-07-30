@@ -1,0 +1,35 @@
+html {
+  font-family: sans-serif;
+}
+
+body {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  background-color: #212529;
+  color: #ccc;
+}
+.page-title {
+    font-weight: bold;
+    font-size: 30px;
+    font-family: "monospace";
+}
+
+a {
+  color: #3395ff;
+}
+a:hover {
+  text-decoration: none;
+}
+
+pre {
+  max-width: 100%;
+  overflow-x: auto;
+  background: #16191c;
+  margin: 0-1rem;
+  padding:0 1rem;
+}
+
+.muted {
+  color:grey;
+}
