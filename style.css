@@ -1,20 +1,45 @@
+@font-face {
+  font-family: "Roboto Mono";
+  src: url('assets/fonts/roboto-mono/roboto-mono-normal.woff2') format('woff2'),
+       url('assets/fonts/roboto-mono/roboto-mono-normal.woff') format('woff'),
+       url('assets/fonts/roboto-mono/roboto-mono-normal.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto Mono";
+  src: url('assets/fonts/roboto-mono/roboto-mono-bold.woff2') format('woff2'),
+       url('assets/fonts/roboto-mono/roboto-mono-bold.woff') format('woff'),
+       url('assets/fonts/roboto-mono/roboto-mono-bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
 body {
-  font-family: sans-serif;
-  max-width: 600px;
+  font-family: "Roboto Mono", monospace, sans-serif;
+  font-size: 2.6vw;
+  max-width: 700px;
   margin: 0 auto;
   padding: 0 1rem;
-  background-color: #0d1117;
+  background-color: #111111;
   color: #ccc;
 }
+
 .page-title {
+  text-shadow: 2px 2px black;
   font-weight: bold;
-  font-family: "monospace";
+  text-decoration: none;
+}
+.page-title:hover {
+  color: #eaeaea;
 }
 
 a {
-  color: #3395ff;
+  color: #eaeaea;
 }
 a:hover {
+  color: grey;
   text-decoration: none;
 }
 
@@ -22,6 +47,6 @@ pre {
   max-width: 100%;
   overflow-x: auto;
   background: #16191c;
-  margin: 0-1rem;
+  margin: 0 1rem;
   padding:0 1rem;
 }
