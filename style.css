@@ -22,13 +22,13 @@ html, body {
 
 body {
   font-family: "Roboto Mono", monospace, sans-serif;
-  max-width: 700px;
+  max-width: 600px;
   margin: 0 auto;
   padding: 0 1rem;
   background-color: #111111;
   color: #ccc;
   width: 90%;
-  font-size: 1.4em;
+  font-size: 1.2em;
   text-align: justify;
   text-justify: inter-character;
   display: flex;
@@ -36,7 +36,7 @@ body {
 }
 
 @media screen and (max-width: 80em) {
-  body { font-size: 1.2em; }
+  body { font-size: 1.0em; }
 }
 @media screen and (max-width: 60em) {
   body { font-size: 1.0em; }
@@ -54,6 +54,8 @@ body {
 .title {
   color: #d9d9d9;
   font-weight: bold;
+  font-size: 120%;
+  padding: 0;
   text-decoration: none;
 }
 
@@ -63,7 +65,7 @@ body {
 
 .footer {
   flex-shrink: 0;
-  font-size: 72%;
+  font-size: 80%;
   padding: 20px;
   color: grey;
   text-align: center;
@@ -85,12 +87,12 @@ li { float: left; }
 li a {
   color: #777777;
   text-align: center;
-  padding: 2px;
+  text-decoration: none;
+  padding: 4px;
 }
 
 .active {
   color: #d9d9d9;
-  text-decoration: none;
 }
 
 pre {
