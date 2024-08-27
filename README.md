@@ -1,6 +1,6 @@
-www
-===
+sh.cezelot.me
+=============
 
-> My homepage on the Wired
+> My little corner on the Internet
 
-Source code of [my website](https://cezelot.me).
+Source code of [the terminal version of my website](https://sh.cezelot.me).
