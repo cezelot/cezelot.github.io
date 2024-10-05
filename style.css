@@ -26,7 +26,7 @@ body {
   max-width: 600px;
   margin: 0 auto;
   padding: 0 1rem;
-  background-color: #111111;
+  background-color: #000;
   color: #ccc;
   width: 90%;
   font-size: 1.2em;
@@ -59,7 +59,10 @@ body {
   text-decoration: none;
 }
 
-.title:hover { color: #eaeaea; }
+.title:hover {
+  color: #eaeaea;
+  text-decoration: none;
+}
 
 .content { flex: 1 0 auto; }
 
@@ -71,7 +74,14 @@ body {
   text-align: center;
 }
 
-a { color: #ccc; }
+.footer a {
+  color: grey;
+  text-decoration: none;
+}
+
+.footer a:hover { text-decoration: underline; }
+
+a { color: #00a2e7; }
 
 a:hover { text-decoration: none; }
 
@@ -91,9 +101,12 @@ li a {
   padding: 0;
 }
 
-.active {
+li a:hover {
   color: #d9d9d9;
+  text-decoration: underline;
 }
+
+.active { color: #d9d9d9; }
 
 pre {
   max-width: 100%;
