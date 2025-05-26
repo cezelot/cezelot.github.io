@@ -220,7 +220,7 @@ $.terminal.xml_formatter.tags.dark-yellow = (attrs) => {
 
 const font = 'Slant';
 
-figlet.defaults({ fontPath: './assets/fonts' });
+figlet.defaults({ fontPath: './_assets/fonts' });
 figlet.preloadFonts([font], ready);
 
 const term = $('body').terminal(commands, {
