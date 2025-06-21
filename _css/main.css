@@ -1,14 +1,18 @@
 @font-face {
-  font-family: "Roboto Mono";
-  src: url('../_fonts/roboto-mono/roboto-mono-regular.woff2') format('woff2'),
-       url('../_fonts/roboto-mono/roboto-mono-regular.woff') format('woff');
+  font-family: "Anonymous Pro";
+  src: url('../_fonts/anonymous-pro-regular.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Roboto Mono";
-  src: url('../_fonts/roboto-mono/roboto-mono-bold.woff2') format('woff2'),
-       url('../_fonts/roboto-mono/roboto-mono-bold.woff') format('woff');
+  src: url('../_fonts/roboto-mono/roboto-mono-regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto Mono";
+  src: url('../_fonts/roboto-mono/roboto-mono-bold.woff2') format('woff2');
   font-weight: bold;
   font-style: normal;
 }
@@ -34,6 +38,10 @@ body, main {
 
 .splash-screen {
   height: 100%;
+}
+
+.header-one {
+  font-family: "Anonymous Pro", "Roboto Mono", sans-serif !important;
 }
 
 nav a, a {
