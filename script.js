@@ -8,18 +8,18 @@ const host = 'cezelot.me';
 
 const directories = {
     about: [
-        '<white>Name:</white>\t\t\tIsmaël Benjara',
-        '<white>Email:</white>\t\t\t<a href="ib@cezelot.me">ib@cezelot.me</a>',
-        '<white>Public key:</white>\t\t<a href="./pubkey.txt" target="_blank" \
+        '<white>name:</white>\t\t\tIsmaël Benjara',
+        '<white>email:</white>\t\t\t<a href="ib@cezelot.me">ib@cezelot.me</a>',
+        '<white>public key:</white>\t\t<a href="./pubkey.txt" target="_blank" \
             rel="noopener noreferrer">D0C9 E5B2 B133 EF2A 1A6B</a>',
         '',
-        'I write code.'
+        'gamedev / programmer'
     ],
     projects: [
         [
             ['eve',
              'https://sr.ht/~cezelot/eve',
-             'simple text editor'
+             'a simple command-line text editor'
             ]
         ].map(([name, url, description = '']) => {
             return `<a href="${url}" target="_blank" rel="noopener noreferrer"\
@@ -62,7 +62,7 @@ const directories = {
         })
     ].flat(),
     uses: [
-        '<white>Languages</white>',
+        '<white>languages</white>',
 
         [
             'Bash',
@@ -74,7 +74,7 @@ const directories = {
             'JavaScript'
         ].map(lang => `* <green>${lang}</green>`),
         '',
-        '<white>Tools</white>',
+        '<white>tools</white>',
         [
             'GNU/Linux',
             'Git',
@@ -150,7 +150,7 @@ const commands = {
         term.echo(`${host}`);
     },
     help() {
-        term.echo(`List of available commands: ${help}`);
+        term.echo(`list of available commands: ${help}`);
     },
     echo(...args) {
         if (args.length > 0) {
@@ -182,43 +182,8 @@ $.terminal.xml_formatter.tags.cyan = (attrs) => {
 $.terminal.xml_formatter.tags.aquamarine = (attrs) => {
     return `[[;#55FFFF;]`;
 };
-/*
-$.terminal.xml_formatter.tags.red = (attrs) => {
-    return `[[;#AA0000;;${attrs.class}]`;
-};
-$.terminal.xml_formatter.tags.yellow = (attrs) => {
-    return `[[;#FFFF55;;${attrs.class}]`;
-};
-$.terminal.xml_formatter.tags.magenta = (attrs) => {
-    return `[[;#AA00AA;]`;
-};
-$.terminal.xml_formatter.tags.light-red = (attrs) => {
-    return `[[;#FF5555;;${attrs.class}]`;
-};
-$.terminal.xml_formatter.tags.light-green = (attrs) => {
-    return `[[;#55FF55;]`;
-};
-$.terminal.xml_formatter.tags.light-blue = (attrs) => {
-    return `[[;#5555FF;]`;
-};
-$.terminal.xml_formatter.tags.light-magenta = (attrs) => {
-    return `[[;#FF55FF;;${attrs.class}]`;
-};
-$.terminal.xml_formatter.tags.light-cyan = (attrs) => {
-    return `[[;#55FFFF;]`;
-};
-$.terminal.xml_formatter.tags.light-grey = (attrs) => {
-    return `[[;#AAAAAA;]`;
-};
-$.terminal.xml_formatter.tags.dark-grey = (attrs) => {
-    return `[[;#555555;;${attrs.class}]`;
-};
-$.terminal.xml_formatter.tags.dark-yellow = (attrs) => {
-    return `[[;#AA5500;]`;
-};
-*/
 
-const font = 'Slant';
+const font = 'slant';
 
 figlet.defaults({ fontPath: './_assets/fonts' });
 figlet.preloadFonts([font], ready);
@@ -251,7 +216,7 @@ term.pause();
 function ready() {
     const seed = rand(256);
     term.echo(() => rainbow(render('cezelot'), seed))
-        .echo('<white>Welcome friend!</white>\n').resume();
+        .echo('<white>welcome friend!</white>\n').resume();
 }
 
 function rand(max) {
