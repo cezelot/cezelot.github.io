@@ -4,12 +4,12 @@ const formatter = new Intl.ListFormat('en', {
 });
 
 const user = 'cezelot';
-const host = 'cezelot.me';
+const host = 'cezelot.github.io';
 
 const directories = {
     about: [
         '<white>name:</white>\t\t\tIsmaël Benjara',
-        '<white>email:</white>\t\t\t<a href="ib@cezelot.me">ib@cezelot.me</a>',
+        '<white>email:</white>\t\t\t<a href="0xcezelot@gmail.com">0xcezelot@gmail.com</a>',
         '<white>public key:</white>\t\t<a href="./pubkey.txt" target="_blank" \
             rel="noopener noreferrer">D0C9 E5B2 B133 EF2A 1A6B</a>',
         '',
