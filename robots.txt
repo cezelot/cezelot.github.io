@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://cezelot.me/sitemap.xml
+Sitemap: https://cezelot.srht.site/sitemap.xml

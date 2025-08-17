@@ -1,6 +1,6 @@
-cezelot
-=======
+cezelot.site
+============
 
 > My homepage on the Wired
 
-Source code of [my personal website](https://cezelot.me).
+Source code of [my website](https://cezelot.srht.site).
