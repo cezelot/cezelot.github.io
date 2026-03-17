@@ -3,4 +3,4 @@ cezelot.site
 
 > My homepage on the Wired
 
-Source code of [my website](https://cezelot.srht.site).
+Source code of [my website](https://cezelot.dev).
