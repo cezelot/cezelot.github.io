@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://cezelot.github.io/sitemap.xml
+Sitemap: https://cezelot.dev/sitemap.xml

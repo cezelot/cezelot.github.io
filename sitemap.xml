@@ -2,6 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://cezelot.github.io/</loc>
+    <loc>https://cezelot.dev/</loc>
+    <lastmod>2026-04-21T10:25:00+03:00</lastmod>
+  </url><url>
+    <loc>https://cezelot.dev/works/</loc>
+    <lastmod>2026-03-15T22:07:42+03:00</lastmod>
   </url>
 </urlset>
